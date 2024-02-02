@@ -49,18 +49,18 @@ In this data, We use SparkSQL to determine key metrics about home sales data. Th
 
 2. What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
-+-------------+----------+
-|average_price|date_built|
-+-------------+----------+
-|    292676.79|      2017|
-|    290555.07|      2016|
-|     288770.3|      2015|
-|    290852.27|      2014|
-|    295962.27|      2013|
-|    293683.19|      2012|
-|    291117.47|      2011|
-|    292859.62|      2010|
-+-------------+----------+
+                         +-------------+----------+
+                         |average_price|date_built|
+                         +-------------+----------+
+                         |    292676.79|      2017|
+                         |    290555.07|      2016|
+                         |     288770.3|      2015|
+                         |    290852.27|      2014|
+                         |    295962.27|      2013|
+                         |    293683.19|      2012|
+                         |    291117.47|      2011|
+                         |    292859.62|      2010|
+                         +-------------+----------+
 
 3. What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
 
