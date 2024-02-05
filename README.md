@@ -109,8 +109,8 @@ In this data, We use SparkSQL to determine key metrics about home sales data. Th
 
 ## Conclusion
  
- A query is written that returns the view rating for the average price for homes that are greater than or equal to $350,000, rounded to two decimal places. the run time of this query is 1.3 minutes. Cached the home sales table and ran the same query, the run time is 0.58 seconds. comparing it is clear that after cached the table run time has decreased.Next step is to uncached the table.
+ A query is written that returns the view rating for the average price for homes that are greater than or equal to $350,000, rounded to two decimal places. the run time of this query is 1.2 minutes. Cached the home sales table and ran the same query, the run time is 0.77 seconds. comparing it is clear that after cached the table run time has decreased.Next step is to uncached the table.
 
- A partition of the home sales dataset by the "date_built" field is created, and the formatted parquet data is read. The same query above is run in the parquet data and the runtime is 1.12 minutes which is higher than cached query and little lower than the intial query. We might see bigger difference when we perform this larger datasets.
+ A partition of the home sales dataset by the "date_built" field is created, and the formatted parquet data is read. The same query above is run in the parquet data and the runtime is 1.19 minutes which is higher than cached query and almost closer to the intial query. We might see bigger difference when we perform this on larger datasets.
 
  
